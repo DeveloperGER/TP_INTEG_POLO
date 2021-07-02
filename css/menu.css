@@ -20,39 +20,6 @@ header{
     height: 60px;
 }
 
-header nav {
-    display: flex;
-    justify-content:flex-end ;    
-}
-
-header nav .nav-right-section{
-    width: 250px;
-    height: auto;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-
-nav .nav-right-section a{
-    margin-right: 15px;
-    color: black;
-}
-
-nav .nav-right-section .menu-icon{
-    background-image: url('https://static.thenounproject.com/png/756729-200.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 27px;
-    height: 27px;
-
-}
-
-nav .nav-right-section img {
-    border-radius: 50%;
-    margin-left: 10px;
-}
 
 main{
     margin-top:150px;

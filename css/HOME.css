@@ -31,3 +31,141 @@ footer {
     /* border: 1px solid black; */
     background: aquamarine;
 }
+
+
+/* INICIO  MENU NAVEGACION */ 
+nav {
+    display: flex;
+    justify-content:flex-end ;    
+}
+
+nav .nav-right-section{
+    width: 800px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* FIN  MENU NAVEGACION */
+
+
+
+/* INICIO  ENCABEZADO NAVEGACION */ 
+header {
+    display: flex;
+    justify-content:flex-end ;    
+}
+
+header .header-right-section{
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header-right-section a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header .header-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 27px;
+    height: 27px;
+
+}
+
+header .header-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* FIN  ENCABEZADO NAVEGACION */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INICIO DE IMAGENES */
+section .uno{
+    background-color:rgb(52, 13, 72) ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+    align-self: center;
+
+
+}
+
+section .dos{
+    background-color:rgb(52, 13, 72) ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+    align-self: center;
+}
+
+section .tres{
+    background-color:rgb(52, 13, 72) ;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin: 10px;
+}
